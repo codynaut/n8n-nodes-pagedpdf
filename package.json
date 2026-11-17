@@ -1,0 +1,54 @@
+{
+	"name": "n8n-nodes-pagedpdf",
+	"version": "0.1.0",
+	"description": "Turn HTML into PDFs in n8n with PagedPDF: table rows stay whole, headers repeat, page numbers take one option, and you get a warning when a font or image doesn't load.",
+	"license": "MIT",
+	"homepage": "https://pagedpdf.com",
+	"keywords": [
+		"n8n-community-node-package",
+		"pdf",
+		"html to pdf",
+		"invoice",
+		"pagedpdf"
+	],
+	"author": {
+		"name": "PagedPDF",
+		"email": "hello@pagedpdf.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/codynaut/n8n-nodes-pagedpdf.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/PagedPdfApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/PagedPdf/PagedPdf.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "^0.56.4",
+		"eslint": "9.39.4",
+		"prettier": "3.8.3",
+		"release-it": "20.2.0",
+		"typescript": "5.9.3"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

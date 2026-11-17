@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-pagedpdf.pagedPdf",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/codynaut/n8n-nodes-pagedpdf?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/codynaut/n8n-nodes-pagedpdf?tab=readme-ov-file"
+			}
+		]
+	}
+}
