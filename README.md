@@ -63,12 +63,17 @@ A common workflow builds an invoice from your data and emails it:
 
 Images and fonts need absolute URLs, `data:` URIs, or a Base URL. If something doesn't load, the `warnings` field says which file and why, so an **If** node on `warningCount` can catch it before the PDF goes out.
 
+There's a complete, tested version of this workflow in the [invoice PDF guide](https://pagedpdf.com/guides/n8n-html-to-pdf-invoice/), and you can import it with **Import from URL** using `https://pagedpdf.com/n8n/invoice-pdf-workflow.json`. That template calls the API with n8n's built-in HTTP Request node, so it also runs on n8n Cloud, and you can swap in the PagedPDF node wherever you have it installed.
+
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
 * [PagedPDF API docs](https://pagedpdf.com/docs/)
+* [How to generate PDF invoices from HTML in n8n](https://pagedpdf.com/guides/n8n-html-to-pdf-invoice/), with the importable workflow
 * [PagedPDF guides](https://pagedpdf.com/guides/), on table page breaks, page numbers and fonts
 
 ## Version history
+
+**0.1.1**: links to the n8n invoice guide and its importable workflow. The node itself is unchanged.
 
 **0.1.0**: first release, with the Convert HTML to PDF operation.
