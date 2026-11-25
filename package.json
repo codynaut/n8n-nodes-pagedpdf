@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-pagedpdf",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Turn HTML into PDFs in n8n with PagedPDF: table rows stay whole, headers repeat, page numbers take one option, and you get a warning when a font or image doesn't load.",
 	"license": "MIT",
 	"homepage": "https://pagedpdf.com",

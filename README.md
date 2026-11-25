@@ -74,6 +74,6 @@ There's a complete, tested version of this workflow in the [invoice PDF guide](h
 
 ## Version history
 
-**0.1.1**: links to the n8n invoice guide and its importable workflow. The node itself is unchanged.
+**0.1.2**: links to the n8n invoice guide and its importable workflow. The node itself is unchanged.
 
 **0.1.0**: first release, with the Convert HTML to PDF operation.
